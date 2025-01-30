@@ -12,4 +12,4 @@ Requirements:
 
 Credits:
 
-- @treblacy's [Calling Haskell Shared Libraries from C (Linux)](https://www.vex.net/~trebla/haskell/so.xhtml)
+- [Calling Haskell Shared Libraries from C (Linux)](https://www.vex.net/~trebla/haskell/so.xhtml) by [@treblacy](https://github.com/treblacy)
