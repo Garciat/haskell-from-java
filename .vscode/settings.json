@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "hsffi.h": "c"
+    },
+    "makefile.configureOnOpen": true
+}
