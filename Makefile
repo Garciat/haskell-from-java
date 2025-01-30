@@ -7,8 +7,8 @@ java-compile: libExample.so
 	javac -d modules --module HaskellCaller --module-source-path src
 
 libExample.so: Example.hs hsbracket.o
-# Update "-lHSrts-ghc9.4.8" to match the version of GHC you are using
-	ghc -O2 -dynamic -shared -fPIC -o libExample.so Example.hs hsbracket.o -lHSrts-ghc9.4.8
+# Update "-lHSrts-1.0.2_thr-ghc9.4.8" to match the version of GHC you are using
+	ghc -O2 -dynamic -shared -fPIC -o libExample.so Example.hs hsbracket.o -lHSrts-1.0.2_thr-ghc9.4.8
 
 hsbracket.o: hsbracket.c
 	ghc -O2 -fPIC -c hsbracket.c
