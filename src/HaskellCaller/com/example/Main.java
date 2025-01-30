@@ -33,7 +33,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws Throwable {
-        System.out.printf("incr(%d) = %d\n", 1, invokeIncr(1));
+        System.out.println("Hello from Java!");
+        System.out.println("Calling into Haskell:");
+        System.out.printf("libExample.incr(%d) = %d\n", 1, invokeIncr(1));
     }
 
     private static int invokeIncr(int x) throws Throwable {
