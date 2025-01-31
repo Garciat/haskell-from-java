@@ -13,6 +13,7 @@ libExample.so: Example.hs hsbracket.o
 hsbracket.o: hsbracket.c
 	ghc -O2 -fPIC -c hsbracket.c
 
+.PHONY: clean
 clean:
 	rm -f *.o *.hi *.so *_stub.h
 	rm -rf modules
